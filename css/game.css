@@ -1,0 +1,26 @@
+.background    { background-image: url(../images/galaxy.jpg);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url(../images/fireball.png); }
+.wall          { background: url(../images/rock2.png);   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(../images/coin.png); }
+.player { background-image: url(../images/tardisSprite2.png);}
+.enemy {background-image: url(../images/trueDalek.png);}
+	/**  if i want to use my own images, create images file and use url(../images/insert name here) **/
+/** theme of game will be space. player will be tardis getting doctors gallifraian gold from a mysterious planet. i guess. **/
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(102, 102, 209);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
